@@ -20,6 +20,12 @@ module Ldoce
         end
         `afplay #{filename}`
       end
+    rescue
+      raise DependencyMissingException.new(
+        "This gem depends on curl and afplay for fetching and playing audio,
+      feel free to fork or make a pull request to improve it
+        ")
+    ensure
       self
     end
 

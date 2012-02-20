@@ -1,6 +1,12 @@
 # Ldoce
 Easily interface with the Longman Dictionary of Contemporary English API from Ruby:
 
+NB currently mac only as it depends on the afplay command.
+
+##Prerequisites
+  * afplay
+  * curl
+
 ## Installation
 
 Add this line to your application's Gemfile:
