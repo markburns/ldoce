@@ -9,7 +9,10 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/markburns/ldoce"
 
   gem.add_dependency 'httparty'
-
+  gem.add_development_dependency 'ruby-debug19'
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'vcr'
+  gem.add_development_dependency 'webmock'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")

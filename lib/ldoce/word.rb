@@ -39,8 +39,8 @@ module Ldoce
       arrayify entries
     end
 
-    def definition
-      definitions = each_in entries  do |entry|
+    def definitions
+      each_in entries  do |entry|
         each_in entry["Sense"] do |f|
           if f["DEF"]
             f["DEF"]["#text"]
@@ -51,7 +51,9 @@ module Ldoce
           end
         end
       end.flatten.compact
+    end
 
+    def definition
       definitions.map { |e| "\"#{e}\"" }.join(",")
     end
 

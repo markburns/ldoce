@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pearson.com/longman/dictionary/entry.json?apikey=e323f1656bccf0f1b166b2b52c57878b&q=cat
+    body: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 20 Feb 2012 19:16:40 GMT
+      Server:
+      - Apache/2.2.17 (Ubuntu)
+      Content-Length:
+      - '7979'
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - private
+      - private, max-age=0, must-revalidate
+      Etag:
+      - ! '"95192ce92312d94c714932b58165444f"'
+      Status:
+      - '200'
+      X-Runtime:
+      - '86'
+      X-Powered-By:
+      - Phusion Passenger (mod_rails/mod_rack) 2.2.11
+      Set-Cookie:
+      - SERVERID=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+      Connection:
+      - close
+    body: ! '{"Entries":{"Entry":{"@id":"6e2b450a_1150373ac67_-758a","Ref":{"@resource":"etymologies","@topic":"02386"},"Head":{"HWD":{"#text":"cat"},"HYPHENATION":{"#text":"cat"},"FREQ":[{"#text":"S1"},{"#text":"W3"}],"PronCodes":{"PRON":{"#text":"kæt"}},"POS":{"#text":"noun"},"GRAM":{"#text":"countable"}},"Sense":[{"@id":"6e2b450a_1150373ac67_-7580","Subsense":[{"DEF":{"#text":"a
+      small animal with four legs that people often keep as a pet."},"RELATEDWD":{"#text":"feline"},"ColloExa":{"COLLO":{"#text":"tabby\/ginger\/tortoiseshell
+      etc cat"},"GLOSS":{"#text":"colours of cats"}},"EXAMPLE":{"@id":"6e2b450a_1150373ac67_-7577","#text":"a
+      ","COLLOINEXA":{"#text":"tom cat"},"GLOSS":{"#text":"a male cat"}}},{"Variant":{"LINKWORD":{"#text":"also"},"LEXVAR":{"#text":"big
+      cat"}},"DEF":{"#text":"a large animal such as a lion or ","NonDV":{"REFHWD":{"#text":"tiger"}}}}]},{"@id":"6e2b450a_1150373ac67_-756c","LEXUNIT":{"#text":"let
+      the cat out of the bag"},"DEF":{"#text":"to tell someone a secret, especially
+      without intending to"}},{"@id":"6e2b450a_1150373ac67_-7568","LEXUNIT":{"#text":"put\/set
+      the cat among the pigeons"},"DEF":{"#text":"to do or say something that causes
+      arguments, trouble etc"}},{"@id":"6e2b450a_1150373ac67_-7564","LEXUNIT":{"#text":"play
+      (a game of) cat and mouse (with somebody)"},"DEF":{"#text":"to pretend to allow
+      someone to do or have what they want, and then to stop them from doing or having
+      it"},"EXAMPLE":{"@id":"6e2b450a_1150373ac67_-7560","#text":"The police played
+      an elaborate game of cat and mouse to trap him.","multimedia":{"@href":"\/multimedia\/exa_pron\/p008-001701509.mp3","@type":"EXA_PRON","#text":"\/multimedia\/exa_pron\/p008-001701509.mp3"}}},{"@id":"6e2b450a_1150373ac67_-755f","LEXUNIT":{"#text":"the
+      cat’s whiskers\/pyjamas"},"REGISTERLAB":{"#text":"informal"},"DEF":{"#text":"something
+      or someone that is better than everything else"},"EXAMPLE":{"@id":"6e2b450a_1150373ac67_-755b","#text":"I
+      really thought I looked the cat’s whiskers in that dress.","multimedia":{"@href":"\/multimedia\/exa_pron\/p008-001701515.mp3","@type":"EXA_PRON","#text":"\/multimedia\/exa_pron\/p008-001701515.mp3"}}},{"@id":"6e2b450a_1150373ac67_-755a","LEXUNIT":{"#text":"like
+      a cat on hot bricks"},"GEO":[{"#text":"British English"},{"#text":"American
+      English"}],"Variant":{"LEXVAR":{"#text":"like a cat on a hot tin roof"}},"DEF":{"#text":"so
+      nervous or anxious that you cannot keep still or keep your attention on one
+      thing"}},{"@id":"6e2b450a_1150373ac67_-7552","LEXUNIT":{"#text":"not stand\/have
+      a cat in hell’s chance (of doing something)"},"REGISTERLAB":{"#text":"informal"},"DEF":{"#text":"to
+      not have any chance of succeeding"},"EXAMPLE":{"@id":"6e2b450a_1150373ac67_-754e","#text":"They
+      don’t have a cat in hell’s chance of being elected.","multimedia":{"@href":"\/multimedia\/exa_pron\/p008-001701521.mp3","@type":"EXA_PRON","#text":"\/multimedia\/exa_pron\/p008-001701521.mp3"}}},{"@id":"6e2b450a_1150373ac67_-754d","LEXUNIT":{"#text":"when
+      the cat’s away (the mice will play)"},"DEF":{"#text":"used to say that people
+      will not behave well when the person who has authority over them is not there"}},{"@id":"6e2b450a_1150373ac67_-754a","LEXUNIT":{"#text":"like
+      the cat that got the cream"},"GEO":[{"#text":"British English"},{"#text":"American
+      English"}],"Variant":{"LEXVAR":{"#text":"like the cat that ate the canary"}},"REGISTERLAB":{"#text":"informal"},"DEF":{"#text":"very
+      proud or pleased because of something you have achieved or got"}},{"@id":"6e2b450a_1150373ac67_-7542","LEXUNIT":{"#text":"look
+      like something the cat dragged\/brought in"},"GEO":{"#text":"British English"},"REGISTERLAB":{"#text":"informal"},"DEF":{"#text":"to
+      look very dirty or untidy"}}],"Tail":{"Crossref":{"Crossrefto":[{"@href":"6e2b450a.115043d5839.-540b","REFLEX":{"#text":"raining
+      cats and dogs"},"REFHWD":{"#text":"rain"},"REFHOMNUM":{"#text":"2"},"REFSENSENUM":{"#text":"1"}},{"@href":"6e2b450a.115043d5839.3c21","REFLEX":{"#text":"there’s
+      not enough room to swing a cat"},"REFHWD":{"#text":"room"},"REFHOMNUM":{"#text":"1"},"REFSENSENUM":{"#text":"5"}}]},"ColloBox":{"@class":"DVD","Section":[{"SECHEADING":{"#text":"adjectives"},"Collocate":[{"COLLOC":{"#text":"a
+      pet cat"},"COLLGLOSS":{"#text":"one that you care for in your home"},"COLLEXA":{"#text":"Lucy
+      had a horse and a pet cat of her own."}},{"COLLOC":{"#text":"a domestic cat"},"COLLGLOSS":{"#text":"one
+      that lives with people"},"COLLEXA":{"#text":"People have kept domestic cats
+      for thousands of years."}},{"COLLOC":{"#text":"a tabby cat"},"COLLGLOSS":{"#text":"which
+      has dark and light lines on brown or grey fur"},"COLLEXA":{"#text":"They had
+      a 12-year-old tabby cat."}},{"COLLOC":{"#text":"a ginger cat"},"COLLGLOSS":{"#text":"which
+      has orange-brown fur"},"COLLEXA":{"#text":"I''ve always wanted a ginger cat."}},{"COLLOC":{"#text":"a
+      feral cat"},"COLLGLOSS":{"#text":"one that lives in groups with other cats but
+      has no home"},"COLLEXA":{"#text":"The small fishing village was full of feral
+      cats."}},{"COLLOC":{"#text":"a stray cat"},"COLLGLOSS":{"#text":"one that has
+      lost its home"},"COLLEXA":{"#text":"He found a stray cat and started feeding
+      it."}},{"COLLOC":{"#text":"a wild cat"},"COLLGLOSS":{"#text":"a type of cat
+      that does not live with people"},"COLLEXA":{"#text":"The African wild cat is
+      bigger than ordinary domestic cats."}},{"COLLOC":{"#text":"big cats"},"COLLGLOSS":{"#text":"lions,
+      tigers etc"},"COLLEXA":{"#text":"All 36 species of big cat are vulnerable or
+      endangered."}}]},{"SECHEADING":{"#text":"verbs"},"Collocate":[{"COLLOC":{"#text":"a
+      cat miaows\/mews"},"COLLGLOSS":{"#text":"makes a small noise"},"COLLEXA":{"#text":"The
+      cat was miaowing outside the door."}},{"COLLOC":{"#text":"a cat purrs"},"COLLGLOSS":{"#text":"makes
+      a soft noise that shows pleasure"},"COLLEXA":{"#text":"The cat purred as she
+      stroked it."}},{"COLLOC":{"#text":"a cat hisses"},"COLLGLOSS":{"#text":"makes
+      a low noise that shows fear or anger"},"COLLEXA":{"#text":"Cats sometimes hiss
+      at dogs."}},{"COLLOC":{"#text":"a cat scratches somebody"},"COLLEXA":{"#text":"If
+      a cat gets angry, it may scratch you with its claws."}},{"COLLOC":{"#text":"a
+      cat leaps\/springs"},"COLLEXA":{"#text":"Then the cat leapt up into the tree."}},{"COLLOC":{"#text":"a
+      cat pounces on something"},"COLLGLOSS":{"#text":"jumps on something and catches
+      it"},"COLLEXA":{"#text":"The cat was hiding, waiting to pounce on the bird."}},{"COLLOC":{"#text":"have
+      a cat"},"COLLEXA":{"#text":"We always had a cat when I was young."}},{"COLLOC":{"#text":"feed
+      a cat"},"COLLEXA":{"#text":"She comes in while we''re away to feed the cat."}},{"COLLOC":{"#text":"stroke
+      a cat"},"COLLEXA":{"#text":"Our cat won''t let you stroke it."}}]},{"SECHEADING":{"#text":"cat
+      + NOUN"},"Collocate":[{"COLLOC":{"#text":"cat food"},"COLLEXA":{"#text":"He
+      bought some cans of cat food."}},{"COLLOC":{"#text":"cat litter"},"COLLGLOSS":{"#text":"small
+      grains for a cat to use as a toilet inside the house"},"COLLEXA":{"#text":"You
+      should change cat litter daily."}},{"COLLOC":{"#text":"a cat flap"},"COLLGLOSS":{"#text":"a
+      special door for a cat to go in and out of a house"},"COLLEXA":{"#text":"The
+      cat was getting too fat to fit through the cat flap."}},{"COLLOC":{"#text":"a
+      cat owner"},"COLLEXA":{"#text":"It is estimated that around 64 million Americans
+      are cat owners."}}]},{"SECHEADING":{"#text":"phrases"},"Collocate":{"COLLOC":{"#text":"let\/put
+      the cat out"},"COLLGLOSS":{"#text":"let it or make it go outside"},"COLLEXA":{"#text":"Can
+      you let the cat out?"}}}]}},"multimedia":[{"@href":"\/multimedia\/us_hwd\/ld45cat.mp3","@type":"US_PRON","#text":"\/multimedia\/us_hwd\/ld45cat.mp3"},{"@href":"\/multimedia\/sound_effects\/sfxcat.mp3","@type":"SOUND_EFFECTS","#text":"\/multimedia\/sound_effects\/sfxcat.mp3"},{"@href":"\/multimedia\/gb_hwd\/ld45cat.mp3","@type":"GB_PRON","#text":"\/multimedia\/gb_hwd\/ld45cat.mp3"},{"@href":"\/multimedia\/dvd_pics\/cat.jpg","@type":"DVD_PICTURES","#text":"\/multimedia\/dvd_pics\/cat.jpg"}]}}}'
+    http_version: 
+  recorded_at: Mon, 20 Feb 2012 19:16:44 GMT
+recorded_with: VCR 2.0.0.rc1
