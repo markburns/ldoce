@@ -84,6 +84,7 @@ module Ldoce
       "tmp/#{lang}_#{query}.mp3"
     end
 
+    class MissingApiKey < Exception; end
     class << self
       def play query
         search(query).play
@@ -98,10 +99,14 @@ module Ldoce
         Word.new query, response
       end
 
+      attr_writer :api_key
+
       def api_key
         @api_key ||= YAML.load(File.read "api_key.yml")[:api_key]
       rescue
-        puts "Create a file called api_key.yml and add your Longman API Key:
+        raise MissingApiKey.new "Either call Ldoce::Word.api_key = '<your_key>'
+        or
+        Create a file called api_key.yml and add your Longman API Key:
            api_key: <your_key_here>"
       end
 
@@ -111,3 +116,4 @@ module Ldoce
     end
   end
 end
+

@@ -1,6 +1,6 @@
 require "httparty"
-require "./ldoce/version"
-require "./ldoce/word"
+require "ldoce/version"
+require "ldoce/word"
 
 module Ldoce
 end
