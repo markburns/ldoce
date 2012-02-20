@@ -4,9 +4,12 @@ require File.expand_path('../lib/ldoce/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Mark Burns"]
   gem.email         = ["markthedeveloper@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{API for the Longman Dictionary of Contemporary English}
+  gem.summary       = %q{So far covers playing mp3 media files and fetching definitions}
+  gem.homepage      = "https://github.com/markburns/ldoce"
+
+  gem.add_dependency 'httparty'
+
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
