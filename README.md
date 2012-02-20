@@ -18,10 +18,15 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-cat = Word.search 'cat'
+Ldoce::Word.api_key = "<your_key>"
+
+cat = Ldoce::Word.search 'cat'
 cat.play #plays mp3 sample - only working for Mac at the moment
 cat.definition
 #=> "A small four legged animal commonly kept as a pet"
+
+Ldoce::Word.play 'cat'
+#=> <Ldoce::Word: cat "A small four legged animal commonly kept as a pet">
 ```
 
 ## Contributing
