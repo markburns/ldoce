@@ -102,12 +102,15 @@ module Ldoce
       attr_writer :api_key
 
       def api_key
-        @api_key ||= YAML.load(File.read "api_key.yml")[:api_key]
+        @api_key ||= YAML.load(File.read "api_key.yml")["api_key"]
       rescue
-        raise MissingApiKey.new "Either call Ldoce::Word.api_key = '<your_key>'
-        or
-        Create a file called api_key.yml and add your Longman API Key:
-           api_key: <your_key_here>"
+        raise MissingApiKey.new "Either set the API key programmatically:
+Ldoce::Word.api_key = '<your_key>'
+
+or
+
+Create a file called api_key.yml and add your Longman API Key:
+api_key: <your_key_here>"
       end
 
       def url query
