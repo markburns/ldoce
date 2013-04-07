@@ -1,3 +1,9 @@
+#This is basically an abandoned project done for a hackathon
+
+Anyone who may consider using it will want to be aware of the following potential security problem:
+https://github.com/markburns/ldoce/issues/1
+
+
 # Ldoce
 Easily interface with the Longman Dictionary of Contemporary English API from Ruby:
 
